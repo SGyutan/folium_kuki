@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1ece92581113479f96229e35812436ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1ece92581113479f96229e35812436ee" ></div>
+        
+</body>
+<script>    
+    
+            var map_1ece92581113479f96229e35812436ee = L.map(
+                "map_1ece92581113479f96229e35812436ee",
+                {
+                    center: [36.062059, 139.666838],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fb0987f02b424cc7a19457e8eeda1d16 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+            var marker_c28f34f09a9747d2b3b1988d6baa57a3 = L.marker(
+                [36.067801, 139.669545],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_d7facbd896614bfa8fed3e48cffb432c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_562d20ba3dcf4cfda784b97bf85a3e69 = $(`<div id="html_562d20ba3dcf4cfda784b97bf85a3e69" style="width: 100.0%; height: 100.0%;">久喜小学校,21-0054</div>`)[0];
+            popup_d7facbd896614bfa8fed3e48cffb432c.setContent(html_562d20ba3dcf4cfda784b97bf85a3e69);
+        
+
+        marker_c28f34f09a9747d2b3b1988d6baa57a3.bindPopup(popup_d7facbd896614bfa8fed3e48cffb432c)
+        ;
+
+        
+    
+    
+            var marker_4cd41d4281d24b018554a395a6b58b3e = L.marker(
+                [36.069342999999996, 139.687053],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_e3468ebbe20f4c67a96a34386a76387c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3262b1fa438d40098b8d39dc3f66a3bf = $(`<div id="html_3262b1fa438d40098b8d39dc3f66a3bf" style="width: 100.0%; height: 100.0%;">太田小学校,21-0572</div>`)[0];
+            popup_e3468ebbe20f4c67a96a34386a76387c.setContent(html_3262b1fa438d40098b8d39dc3f66a3bf);
+        
+
+        marker_4cd41d4281d24b018554a395a6b58b3e.bindPopup(popup_e3468ebbe20f4c67a96a34386a76387c)
+        ;
+
+        
+    
+    
+            var marker_7e913e33b06143149e8aa861a407b49d = L.marker(
+                [36.056149, 139.66691200000002],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_e89766fcd6ba4b829bcc8760c02edef4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3b0d1f9214442e58a127a9aa6d96c71 = $(`<div id="html_a3b0d1f9214442e58a127a9aa6d96c71" style="width: 100.0%; height: 100.0%;">江面第一小学校,21-0571</div>`)[0];
+            popup_e89766fcd6ba4b829bcc8760c02edef4.setContent(html_a3b0d1f9214442e58a127a9aa6d96c71);
+        
+
+        marker_7e913e33b06143149e8aa861a407b49d.bindPopup(popup_e89766fcd6ba4b829bcc8760c02edef4)
+        ;
+
+        
+    
+    
+            var marker_23bb28f0049841149e49bc64cf7071c5 = L.marker(
+                [36.046048, 139.645396],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_64e09cf2468a4be8b147727faed39c7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4e14a2ca76943c98aad0a64448420c4 = $(`<div id="html_f4e14a2ca76943c98aad0a64448420c4" style="width: 100.0%; height: 100.0%;">江面第二小学校,22-8237</div>`)[0];
+            popup_64e09cf2468a4be8b147727faed39c7f.setContent(html_f4e14a2ca76943c98aad0a64448420c4);
+        
+
+        marker_23bb28f0049841149e49bc64cf7071c5.bindPopup(popup_64e09cf2468a4be8b147727faed39c7f)
+        ;
+
+        
+    
+    
+            var marker_9a379554420c40199d6042666c0b762e = L.marker(
+                [36.077231, 139.63820800000002],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_343c0510d67240198d60899ac984dc76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4fefb9e93dd4f268e963d884f5d2a2a = $(`<div id="html_f4fefb9e93dd4f268e963d884f5d2a2a" style="width: 100.0%; height: 100.0%;">清久小学校,21-0789</div>`)[0];
+            popup_343c0510d67240198d60899ac984dc76.setContent(html_f4fefb9e93dd4f268e963d884f5d2a2a);
+        
+
+        marker_9a379554420c40199d6042666c0b762e.bindPopup(popup_343c0510d67240198d60899ac984dc76)
+        ;
+
+        
+    
+    
+            var marker_f311d00e1d194001a61d38427ccd3ce5 = L.marker(
+                [36.075457, 139.668662],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_6adcf9421ca74af6b26e91c27e88287b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49471858eb504779bc63b9d2056add33 = $(`<div id="html_49471858eb504779bc63b9d2056add33" style="width: 100.0%; height: 100.0%;">本町小学校,22-8245</div>`)[0];
+            popup_6adcf9421ca74af6b26e91c27e88287b.setContent(html_49471858eb504779bc63b9d2056add33);
+        
+
+        marker_f311d00e1d194001a61d38427ccd3ce5.bindPopup(popup_6adcf9421ca74af6b26e91c27e88287b)
+        ;
+
+        
+    
+    
+            var marker_f059c2c2f7974048a45fd1a42c428a46 = L.marker(
+                [36.0672, 139.695323],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_3901e1b0133249068ad545ad0065654b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_115c67d3023142efa6a03ca04113f640 = $(`<div id="html_115c67d3023142efa6a03ca04113f640" style="width: 100.0%; height: 100.0%;">青葉小学校,22-6121</div>`)[0];
+            popup_3901e1b0133249068ad545ad0065654b.setContent(html_115c67d3023142efa6a03ca04113f640);
+        
+
+        marker_f059c2c2f7974048a45fd1a42c428a46.bindPopup(popup_3901e1b0133249068ad545ad0065654b)
+        ;
+
+        
+    
+    
+            var marker_7fe672de469a4109baf222a7067b1e10 = L.marker(
+                [36.073473, 139.69461299999998],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_610c1c6591554010895ad3473823e2ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efff1b86da0c4e0eaa9f29cfc4fb2391 = $(`<div id="html_efff1b86da0c4e0eaa9f29cfc4fb2391" style="width: 100.0%; height: 100.0%;">青毛小学校,22-2125</div>`)[0];
+            popup_610c1c6591554010895ad3473823e2ba.setContent(html_efff1b86da0c4e0eaa9f29cfc4fb2391);
+        
+
+        marker_7fe672de469a4109baf222a7067b1e10.bindPopup(popup_610c1c6591554010895ad3473823e2ba)
+        ;
+
+        
+    
+    
+            var marker_ab55d1a9507e4f458e36c5d31449c491 = L.marker(
+                [36.053115000000005, 139.684092],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_bde86b37cfe94d09b35f430805d3b69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_926eab549d374d50ae789a18da2e09b7 = $(`<div id="html_926eab549d374d50ae789a18da2e09b7" style="width: 100.0%; height: 100.0%;">久喜東小学校,22-1218</div>`)[0];
+            popup_bde86b37cfe94d09b35f430805d3b69b.setContent(html_926eab549d374d50ae789a18da2e09b7);
+        
+
+        marker_ab55d1a9507e4f458e36c5d31449c491.bindPopup(popup_bde86b37cfe94d09b35f430805d3b69b)
+        ;
+
+        
+    
+    
+            var marker_a16e01811c52437db373deefa7a30a84 = L.marker(
+                [36.077953, 139.672447],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_44aed43e07dc496dabc2b15b2f5e738c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34c30aa0e5f248538aac00cc29b00ac4 = $(`<div id="html_34c30aa0e5f248538aac00cc29b00ac4" style="width: 100.0%; height: 100.0%;">久喜北小学校,25-0678</div>`)[0];
+            popup_44aed43e07dc496dabc2b15b2f5e738c.setContent(html_34c30aa0e5f248538aac00cc29b00ac4);
+        
+
+        marker_a16e01811c52437db373deefa7a30a84.bindPopup(popup_44aed43e07dc496dabc2b15b2f5e738c)
+        ;
+
+        
+    
+    
+            var marker_92bfe1f97bca4c1ba13510ad16a8f41b = L.marker(
+                [36.069589, 139.601273],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_b47ff769443540de87fb959a28cdb507 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0acd96494d034eb89216288cf5d58e15 = $(`<div id="html_0acd96494d034eb89216288cf5d58e15" style="width: 100.0%; height: 100.0%;">菖蒲小学校,85-1202</div>`)[0];
+            popup_b47ff769443540de87fb959a28cdb507.setContent(html_0acd96494d034eb89216288cf5d58e15);
+        
+
+        marker_92bfe1f97bca4c1ba13510ad16a8f41b.bindPopup(popup_b47ff769443540de87fb959a28cdb507)
+        ;
+
+        
+    
+    
+            var marker_b7f3fa34bdd240949b4560217e785b34 = L.marker(
+                [36.054596000000004, 139.583559],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_83a2dd31e79a47548caab3b387d46e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f5bdb07f593449faca3ec4ef28945c8 = $(`<div id="html_1f5bdb07f593449faca3ec4ef28945c8" style="width: 100.0%; height: 100.0%;">小林小学校,85-1306</div>`)[0];
+            popup_83a2dd31e79a47548caab3b387d46e7f.setContent(html_1f5bdb07f593449faca3ec4ef28945c8);
+        
+
+        marker_b7f3fa34bdd240949b4560217e785b34.bindPopup(popup_83a2dd31e79a47548caab3b387d46e7f)
+        ;
+
+        
+    
+    
+            var marker_def1d17143ca4decb6bbc06491b75cf7 = L.marker(
+                [36.055515, 139.621997],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_a30202867bf2423cbd2f57e16a506313 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_866b8d8905cc464ea1b494658101fe47 = $(`<div id="html_866b8d8905cc464ea1b494658101fe47" style="width: 100.0%; height: 100.0%;">三箇小学校,85-1309</div>`)[0];
+            popup_a30202867bf2423cbd2f57e16a506313.setContent(html_866b8d8905cc464ea1b494658101fe47);
+        
+
+        marker_def1d17143ca4decb6bbc06491b75cf7.bindPopup(popup_a30202867bf2423cbd2f57e16a506313)
+        ;
+
+        
+    
+    
+            var marker_860d9e3a0a794abf918ad73b0c30f658 = L.marker(
+                [36.036003, 139.57911299999998],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_ff3272f21a564c00ac3ae830d2a71e0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63b0110f77924b7db79785df35f7364a = $(`<div id="html_63b0110f77924b7db79785df35f7364a" style="width: 100.0%; height: 100.0%;">栢間小学校,85-1024</div>`)[0];
+            popup_ff3272f21a564c00ac3ae830d2a71e0b.setContent(html_63b0110f77924b7db79785df35f7364a);
+        
+
+        marker_860d9e3a0a794abf918ad73b0c30f658.bindPopup(popup_ff3272f21a564c00ac3ae830d2a71e0b)
+        ;
+
+        
+    
+    
+            var marker_fd6e3c71d55348329891e983bac62a71 = L.marker(
+                [36.066159000000006, 139.608053],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_fb032374ea9e4a5f82756b4908018344 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58619c98087540759a9348ca7ee1ac82 = $(`<div id="html_58619c98087540759a9348ca7ee1ac82" style="width: 100.0%; height: 100.0%;">菖蒲東小学校,85-1303</div>`)[0];
+            popup_fb032374ea9e4a5f82756b4908018344.setContent(html_58619c98087540759a9348ca7ee1ac82);
+        
+
+        marker_fd6e3c71d55348329891e983bac62a71.bindPopup(popup_fb032374ea9e4a5f82756b4908018344)
+        ;
+
+        
+    
+    
+            var marker_eb533688312c4c33b817fd102bc020b7 = L.marker(
+                [36.118835, 139.68238300000002],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_a5a5e304e37f4a648e48919e3a958319 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eedfbfa0a1e34a6b8eb86f5903b3a5e6 = $(`<div id="html_eedfbfa0a1e34a6b8eb86f5903b3a5e6" style="width: 100.0%; height: 100.0%;">栗橋西小学校,52-0215</div>`)[0];
+            popup_a5a5e304e37f4a648e48919e3a958319.setContent(html_eedfbfa0a1e34a6b8eb86f5903b3a5e6);
+        
+
+        marker_eb533688312c4c33b817fd102bc020b7.bindPopup(popup_a5a5e304e37f4a648e48919e3a958319)
+        ;
+
+        
+    
+    
+            var marker_631e1a84bb2f4524bc6b755cc7d9576e = L.marker(
+                [36.113718, 139.709544],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_2155f8e6fae74ec9b93da40eaf12d0e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6926b0863574132b9f97839802df16a = $(`<div id="html_c6926b0863574132b9f97839802df16a" style="width: 100.0%; height: 100.0%;">栗橋南小学校,52-0235</div>`)[0];
+            popup_2155f8e6fae74ec9b93da40eaf12d0e4.setContent(html_c6926b0863574132b9f97839802df16a);
+        
+
+        marker_631e1a84bb2f4524bc6b755cc7d9576e.bindPopup(popup_2155f8e6fae74ec9b93da40eaf12d0e4)
+        ;
+
+        
+    
+    
+            var marker_5737d8fedfbc48cf98ad903863d5f14f = L.marker(
+                [36.134778000000004, 139.701369],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_5a06a0ced30a47a2906703cbf9e9046e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_130f4067e46d4574982374080b5e6bbb = $(`<div id="html_130f4067e46d4574982374080b5e6bbb" style="width: 100.0%; height: 100.0%;">栗橋小学校,52-2114</div>`)[0];
+            popup_5a06a0ced30a47a2906703cbf9e9046e.setContent(html_130f4067e46d4574982374080b5e6bbb);
+        
+
+        marker_5737d8fedfbc48cf98ad903863d5f14f.bindPopup(popup_5a06a0ced30a47a2906703cbf9e9046e)
+        ;
+
+        
+    
+    
+            var marker_9a036abe7c9a4b2c9ff6bdf6b33bdc33 = L.marker(
+                [36.093821999999996, 139.65786699999998],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_91f4c0efcf2740268e39e3f7a67fb9f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2f26f9947864115b6468413075804d3 = $(`<div id="html_e2f26f9947864115b6468413075804d3" style="width: 100.0%; height: 100.0%;">鷲宮小学校,58-1006</div>`)[0];
+            popup_91f4c0efcf2740268e39e3f7a67fb9f9.setContent(html_e2f26f9947864115b6468413075804d3);
+        
+
+        marker_9a036abe7c9a4b2c9ff6bdf6b33bdc33.bindPopup(popup_91f4c0efcf2740268e39e3f7a67fb9f9)
+        ;
+
+        
+    
+    
+            var marker_50d8a611184542eea2144903fe325b6a = L.marker(
+                [36.090816, 139.687916],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_8d20fe7bf1024d2c98166d70d5604e50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a88b36ffe0494855af0916c7dd582072 = $(`<div id="html_a88b36ffe0494855af0916c7dd582072" style="width: 100.0%; height: 100.0%;">桜田小学校,58-1306</div>`)[0];
+            popup_8d20fe7bf1024d2c98166d70d5604e50.setContent(html_a88b36ffe0494855af0916c7dd582072);
+        
+
+        marker_50d8a611184542eea2144903fe325b6a.bindPopup(popup_8d20fe7bf1024d2c98166d70d5604e50)
+        ;
+
+        
+    
+    
+            var marker_b36d79786d8040178a8236b4835c3865 = L.marker(
+                [36.088987, 139.662724],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_33719716dab84a239fa4738c1dbb23b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53b7fb3cc9944f6b53c77b4d4815778 = $(`<div id="html_c53b7fb3cc9944f6b53c77b4d4815778" style="width: 100.0%; height: 100.0%;">上内小学校,58-1611</div>`)[0];
+            popup_33719716dab84a239fa4738c1dbb23b7.setContent(html_c53b7fb3cc9944f6b53c77b4d4815778);
+        
+
+        marker_b36d79786d8040178a8236b4835c3865.bindPopup(popup_33719716dab84a239fa4738c1dbb23b7)
+        ;
+
+        
+    
+    
+            var marker_f0829781cb7b4041b051568dcd672e46 = L.marker(
+                [36.095984, 139.66189599999998],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_d62d9edced7a4cb0b3a0da8912f9a437 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d10f02e2afe84e46ac234566d03ddcb2 = $(`<div id="html_d10f02e2afe84e46ac234566d03ddcb2" style="width: 100.0%; height: 100.0%;">砂原小学校,58-1614</div>`)[0];
+            popup_d62d9edced7a4cb0b3a0da8912f9a437.setContent(html_d10f02e2afe84e46ac234566d03ddcb2);
+        
+
+        marker_f0829781cb7b4041b051568dcd672e46.bindPopup(popup_d62d9edced7a4cb0b3a0da8912f9a437)
+        ;
+
+        
+    
+    
+            var marker_6c66e50a6beb47b3ba7b660141b4bbe6 = L.marker(
+                [36.0923, 139.684021],
+                {}
+            ).addTo(map_1ece92581113479f96229e35812436ee);
+        
+    
+        var popup_22b88707ba054c768c2e08f90b4587f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28e523ddeb5e421d9550d523a78ccbe4 = $(`<div id="html_28e523ddeb5e421d9550d523a78ccbe4" style="width: 100.0%; height: 100.0%;">東鷲宮小学校,59-3122</div>`)[0];
+            popup_22b88707ba054c768c2e08f90b4587f5.setContent(html_28e523ddeb5e421d9550d523a78ccbe4);
+        
+
+        marker_6c66e50a6beb47b3ba7b660141b4bbe6.bindPopup(popup_22b88707ba054c768c2e08f90b4587f5)
+        ;
+
+        
+    
+</script>
